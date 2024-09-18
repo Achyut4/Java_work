@@ -5,6 +5,11 @@ public class MotorBike {
 //	 State
 	private int speed;
 
+//	Default constructor
+	public MotorBike() {
+		this(5);
+	}
+
 //	Parameterized constructor
 	public MotorBike(int speed) {
 		this.speed = speed;

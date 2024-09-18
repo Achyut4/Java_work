@@ -6,6 +6,7 @@ public class MotorBikeRunner {
 		// TODO Auto-generated method stub
 		MotorBike kawasakiNinja = new MotorBike(10);
 		MotorBike royalEnfield = new MotorBike(15);
+		MotorBike ktm = new MotorBike();
 
 		kawasakiNinja.start();
 		royalEnfield.start();
@@ -13,6 +14,7 @@ public class MotorBikeRunner {
 		System.out.println("Initial state!!!");
 		System.out.println(kawasakiNinja.getSpeed());
 		System.out.println(royalEnfield.getSpeed());
+		System.out.println(ktm.getSpeed());
 
 		System.out.println("Setting state!!!");
 		kawasakiNinja.setSpeed(50);
