@@ -5,7 +5,12 @@ public class MotorBike {
 //	 State
 	private int speed;
 
-//	behaviour
+//	Parameterized constructor
+	public MotorBike(int speed) {
+		this.speed = speed;
+	}
+
+//	Behavior
 
 //	Create getter and setter
 
